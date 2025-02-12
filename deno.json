@@ -1,0 +1,13 @@
+{
+	"tasks": {
+		"server": "deno run --allow-net index.js"
+	},
+	"fmt": {
+		"exclude": [
+			"node_modules"
+		],
+		"indentWidth": 4,
+		"useTabs": true,
+		"lineWidth": 400
+	}
+}
